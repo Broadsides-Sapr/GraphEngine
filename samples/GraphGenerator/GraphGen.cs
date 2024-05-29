@@ -207,7 +207,7 @@ namespace GraphGenerator
             }
         }
 
-        public void CreatGraph()
+        public void CreateGraph()
         {
             int threadCount = Environment.ProcessorCount;
             Thread[] threadNum = new Thread[threadCount];
